@@ -1,0 +1,14 @@
+
+let fruits = ["Apple", "Banana", "Cherry", "Date"];
+
+console.log("First fruit:", fruits[0]); // Access first element
+
+console.log("All Fruits:");
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
+fruits.push("Elderberry");
+console.log("After adding Elderberry:", fruits);
+fruits.pop();
+console.log("After removing last fruit:", fruits);
+console.log("Number of fruits:", fruits.length);
