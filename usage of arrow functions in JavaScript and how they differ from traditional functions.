@@ -1,0 +1,13 @@
+
+function add(a, b) {
+  return a + b;
+}
+console.log("Traditional Add Function:", add(5, 3));
+
+const addArrow = (a, b) => a + b;
+console.log("Arrow Add Function:", addArrow(5, 3));
+
+const square = x => x * x;
+console.log("Square of 4:", square(4));
+const greet = () => console.log("Hello, welcome to JavaScript!");
+greet();
